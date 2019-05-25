@@ -15,7 +15,6 @@ build:
     - whitebox=whitebox.cli:main
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
-  script: sudo apt-get install python3-tk
 
 requirements:
   host:
