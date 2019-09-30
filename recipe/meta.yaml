@@ -27,6 +27,10 @@ requirements:
     - python >=3.6
     - setuptools
 
+test:
+  imports:
+    - whitebox
+    
 about:
   home: https://github.com/giswqs/whitebox
   license: MIT
