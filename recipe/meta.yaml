@@ -29,7 +29,7 @@ requirements:
 
 test:
   imports:
-    - whitebox
+    - os
     
 about:
   home: https://github.com/giswqs/whitebox
