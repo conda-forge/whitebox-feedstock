@@ -1,5 +1,5 @@
 {% set name = "whitebox" %}
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3cb37af3021aa7477e71d5c6984b687caf46a975594bb03e23517f5349608408
+  sha256: d0d1153561b4198ec80d8b3345b148a122122948d3b1377c1b39bf54eb6c8c0a
 
 build:
   number: 0
