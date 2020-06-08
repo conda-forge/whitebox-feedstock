@@ -1,5 +1,5 @@
 {% set name = "whitebox" %}
-{% set version = "0.5.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aa40c7044c550e9ec2ef99a7b1c3461442cc927b081a780d122ecbe8de792cff
+  sha256: 7d2c62abbb7e8f29b7c21b2d817c3c09c8cf5fafa17b1794834597277aa8a9da
 
 build:
   number: 0
@@ -29,8 +29,8 @@ requirements:
 
 test:
   imports:
-    - whitebox
-
+    - os
+    
 about:
   home: https://github.com/giswqs/whitebox
   license: MIT
