@@ -5,7 +5,7 @@ Home: https://github.com/giswqs/whitebox
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An advanced geospatial data analysis platform
 
